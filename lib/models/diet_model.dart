@@ -44,6 +44,28 @@ class DietModel {
       ),
     );
 
+    diets.add(DietModel(
+        name: 'Honey Pancake',
+        iconPath: 'assets/icons/honey-pancakes.svg',
+        level: 'Easy',
+        duration: '30mins',
+        calories: '180kCal',
+        viewIsSelected: false,
+        boxColor: const Color(0xff92A3FD)
+      ),
+    );
+
+    diets.add(DietModel(
+        name: 'Roti Canai',
+        iconPath: 'assets/icons/canai-bread.svg',
+        level: 'Easy',
+        duration: '30mins',
+        calories: '230kCal',
+        viewIsSelected: false,
+        boxColor: const Color(0xFFF4B6C2)
+      ),
+    );
+
     return diets;
   }
 }
